@@ -1,0 +1,18 @@
+.maincontainer{
+  position:absolute;
+  background-color: red ;
+  top:15vh;
+  min-width: 500vh;
+  width: 100%;
+  max-height: 71vh;
+  height: 100%;
+}
+
+.maincont.active {
+  z-index: 20;
+  opacity: 1;
+  background-color: transparent ;
+  left:  0vh;
+
+}
+

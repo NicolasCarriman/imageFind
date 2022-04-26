@@ -1,0 +1,20 @@
+.btn1{
+ position: relative;
+ top: 56vh;
+ left: 28vh;
+ height: 20vw;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 200;
+ font-size: 30px;
+ transition: ease-out 0.3s;
+ box-shadow: inset 0 0 0 0 #1ba6ee;
+ z-index: 50;
+ border: none;
+}
+.btn1:hover{
+ left: 28vh;
+ font-weight: 300;
+ box-shadow: inset 300px 0 0 0 #1ba6ee;
+ color: white;
+ 
+}

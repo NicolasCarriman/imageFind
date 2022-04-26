@@ -1,0 +1,34 @@
+.photoContainer{
+  overflow: hidden;
+  position: relative;
+  left:  80vh;
+  z-index: 5;
+}
+
+.photos{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative; 
+  z-index: 0;
+  left: 99.8vh;
+  height: 71vh;
+  max-height: 100%;
+  width: 72vh;
+  max-width: 100%;
+
+}
+.photos img{
+  height: 550px;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.productos{
+  overflow: hidden;
+  position: relative;
+  color: white;
+  
+  margin-left: 185vh;
+  
+}

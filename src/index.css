@@ -1,0 +1,32 @@
+body {
+        height: 100%;
+        margin:0;
+      }
+.background{
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle farthest-side at top right, #2e2e2e 20%, #181818 50%, #151515 60%);
+}
+.line{
+  left: 150vh;
+  position:absolute;
+  min-width:20vh;
+  width:10%;
+  height:100%;
+  z-index: 50;
+  border-style: solid ;
+  border-width:  1px;
+  border-bottom: 0;
+  border-left: 0;
+  border-top: 0;
+  border-color:black;
+  box-shadow: inset -1px 0px 1px -1px gray;
+
+}
+
+
+
+
+
