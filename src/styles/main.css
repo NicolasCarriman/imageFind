@@ -1,6 +1,6 @@
 .maincontainer{
   position:absolute;
-  background-color: red ;
+  background-color: transparent ;
   top:15vh;
   min-width: 500vh;
   width: 100%;
@@ -16,3 +16,9 @@
 
 }
 
+.introduction {
+    position: relative;
+    top: -50vh;
+    color: white;
+    left: 116vh;
+}

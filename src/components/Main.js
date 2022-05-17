@@ -1,6 +1,7 @@
 import react, {useState, useEffect, useRef} from 'react';
 import Carousel from './slide2.js'
 import Bio from './bio.js'
+import '../styles/main.css'
 
 export default function Main(props){
 
@@ -8,6 +9,7 @@ export default function Main(props){
 	const mainRef = useRef(null);
 	const [setMain, setStateMain] = useState(false)
 	const [imgLink, setImgLink] = useState([])
+	const [setBio, setStateBio] = useState(false)
 
 	useEffect(() => {
 		if(mainRef.current.className =="maincont active"){
@@ -20,6 +22,7 @@ export default function Main(props){
 
 	const handleUser= (e)=>{
 		setImgLink(e)
+		setStateBio(true)
 	}
 
 
@@ -38,13 +41,16 @@ export default function Main(props){
 				</section>
 				<aside>
 					<article >
-					{setMain ?
+					{setBio ?
 						<>
 							<Bio Data={imgLink}/>
 							
 						</>
 					:
-						<></>
+						<>
+							<div className='introduction'> porfavor haga doble click en la imagen
+							</div>
+						</>
 					}
 						
 					</article>
